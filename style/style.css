@@ -4,7 +4,31 @@ body{
 }
 h1{
     font-size: 50px;
+    color: purple;
+}
+h3{
+    color: orange;
+    font-size: 30px;
 }
 .container{
-    
+    display: flex;
+    text-align: center;
+}
+.flot-left{
+    width: 50%;
+    text-align: start;
+}
+.flot-right{
+    width: 50%;
+}
+.link-button{
+    background-color: orange;
+    color: rgb(42, 36, 36);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.link-button :hover{
+    background-color: navajowhite;
+    color: black;
 }
