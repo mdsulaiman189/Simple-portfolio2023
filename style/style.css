@@ -1,6 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
-    
+    margin: 0 auto;
 }
 h1{
     font-size: 50px;
@@ -10,23 +10,36 @@ h3{
     color: orange;
     font-size: 30px;
 }
-.container{
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+section{
     display: flex;
     text-align: center;
+}
+.topimg{
+    background-image:url(../img/top-banner.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    
 }
 .flot-left{
     width: 50%;
     text-align: start;
+    padding: 40px;
 }
 .flot-right{
     width: 50%;
+    padding: 40px;
 }
 .link-button{
-    background-color: orange;
-    color: rgb(42, 36, 36);
+    background-image: linear-gradient(#fec357,#cd1ccd);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px 20px;
-    border-radius: 8px;
+    border-radius: 5px;
+
 }
 .link-button :hover{
     background-color: navajowhite;
