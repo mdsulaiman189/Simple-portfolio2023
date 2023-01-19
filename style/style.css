@@ -3,8 +3,9 @@ body{
     margin: 0 auto;
 }
 h1{
-    font-size: 50px;
+    font-size: 55px;
     color: purple;
+    
 }
 h3{
     color: orange;
@@ -16,7 +17,7 @@ p{
 }
 section{
     display: flex;
-    text-align: center;
+    margin-bottom: 100px;
 }
 .topimg{
     background-image:url(../img/top-banner.png);
@@ -26,12 +27,14 @@ section{
 }
 .flot-left{
     width: 50%;
-    text-align: start;
     padding: 40px;
+    justify-content: center;
 }
-.flot-right{
+.section-img{
     width: 50%;
     padding: 40px;
+    justify-content: center;
+    text-align: start;
 }
 .link-button{
     background-image: linear-gradient(#fec357,#cd1ccd);
@@ -44,4 +47,11 @@ section{
 .link-button :hover{
     background-color: navajowhite;
     color: black;
+}
+.contact-btn{
+    text-decoration: none;
+    color: rgb(31, 31, 238);
+}
+.contact-btn :hover a{
+    color: red;
 }
