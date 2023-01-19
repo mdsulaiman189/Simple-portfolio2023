@@ -15,7 +15,7 @@ p{
     font-size: 16px;
     font-weight: 400;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -25,7 +25,13 @@ section{
     background-repeat: no-repeat;
     
 }
-.flot-left{
+.bg-img{
+    background-image:url(../img/dream-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width{
     width: 50%;
     padding: 40px;
     justify-content: center;
